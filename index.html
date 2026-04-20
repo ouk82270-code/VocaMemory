@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>單字學習系統</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="card">
+
+<h2>單字學習系統</h2>
+
+<!-- 登入 -->
+<div id="loginBox">
+    <input id="nameInput" placeholder="輸入名字">
+    <button onclick="login()">登入</button>
+</div>
+
+<!-- 主系統 -->
+<div id="app" style="display:none">
+
+    <div id="userInfo"></div>
+
+    <select id="lesson">
+        <option value="L4">L4</option>
+        <option value="L5">L5</option>
+    </select>
+
+    <h3 id="question"></h3>
+
+    <input id="answerInput" placeholder="輸入英文">
+
+    <button onclick="submit()">送出</button>
+    <button onclick="nextWord()">下一題</button>
+
+    <div id="result"></div>
+
+
+    <button onclick="logout()">登出</button>
+
+</div>
+
+</div>
+
+<script src="db.js"></script>
+<script src="vocab.js"></script>
+<script src="app.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,74 @@
+
+.layout {
+    display: flex;
+    min-height: 100vh;   /* ← 改這裡 */
+    width: 100%;
+    background: #0b1220;
+    color: white;
+    font-family: Arial;
+}
+
+/* 側邊欄 */
+.sidebar {
+    width: 220px;
+    background: #111827;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.sidebar h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.sidebar button {
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    background: #1f2937;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.sidebar button:hover {
+    background: #3b82f6;
+}
+
+/* 主區域 */
+.main {
+    flex: 1;
+    padding: 20px;
+}
+
+/* 頁面區塊 */
+.page {
+    background: rgba(30,41,59,0.6);
+    padding: 20px;
+    border-radius: 12px;
+}
+
+/* 危險按鈕 */
+.danger {
+    background: #ef4444 !important;
+}
+
+.danger:hover {
+    background: #dc2626 !important;
+}
+
+/* chart */
+canvas {
+    margin-top: 20px;
+    max-width: 600px;
+}
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background: #0b1220;
+}

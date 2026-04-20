@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>後台</title>
+<link rel="stylesheet" href="admin.css">
+</head>
+
+<body>
+
+<div class="layout">
+
+<div class="sidebar">
+
+<h2>管理系統</h2>
+
+<button onclick="show('users')">使用者</button>
+<button onclick="show('stats')">分析</button>
+
+<button onclick="location.href='index.html'">返回</button>
+
+</div>
+
+<div class="main">
+
+<div id="users">
+
+<h2>使用者管理</h2>
+
+<select id="userSelect"></select>
+
+<button onclick="refreshUsers()">刷新</button>
+<button onclick="deleteUser()">刪除</button>
+
+</div>
+
+<div id="stats" style="display:none">
+
+<h2>數據分析</h2>
+
+<canvas id="chart1"></canvas>
+<canvas id="chart2"></canvas>
+
+</div>
+
+</div>
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="db.js"></script>
+<script src="admin.js"></script>
+<script src="chart.js"></script>
+
+</body>
+</html>

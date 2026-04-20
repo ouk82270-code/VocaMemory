@@ -1,0 +1,61 @@
+
+const vocabData = {
+
+  L4: [
+      { word: "female", meaning: "女性", pos: "n." },
+      { word: "region", meaning: "地區", pos: "n." },
+      { word: "regional", meaning: "地區的", pos: "adj." },
+      { word: "forbid", meaning: "禁止", pos: "v." },
+      { word: "continue", meaning: "繼續", pos: "v." },
+      { word: "education", meaning: "教育", pos: "n." },
+      { word: "educational", meaning: "教育的", pos: "adj." },
+      { word: "educate", meaning: "教育", pos: "v." },
+      { word: "principal", meaning: "校長 / 主要的", pos: "n./adj." },
+      { word: "equal", meaning: "平等 / 相等", pos: "adj." },
+      { word: "equality", meaning: "平等", pos: "n." },
+      { word: "control", meaning: "控制 / 管理", pos: "v." },
+      { word: "annoy", meaning: "惹惱", pos: "v." },
+      { word: "threaten", meaning: "威脅", pos: "v." },
+      { word: "threat", meaning: "威脅", pos: "n." },
+      { word: "surgery", meaning: "手術", pos: "n." },
+      { word: "recover", meaning: "恢復", pos: "v." },
+      { word: "recovery", meaning: "復原", pos: "n." },
+      { word: "sign", meaning: "標誌 / 簽名", pos: "n./v." },
+      { word: "persuade", meaning: "說服", pos: "v." },
+      { word: "adopt", meaning: "採用 / 收養", pos: "v." },
+      { word: "policy", meaning: "政策", pos: "n." },
+      { word: "ensure", meaning: "確保", pos: "v." },
+      { word: "establish", meaning: "建立", pos: "v." },
+      { word: "honor", meaning: "榮譽", pos: "n." },
+      { word: "weapon", meaning: "武器", pos: "n." }
+  ],
+
+  L5: [
+      { word: "dare", meaning: "敢", pos: "v." },
+      { word: "entertain", meaning: "娛樂", pos: "v." },
+      { word: "entertainment", meaning: "娛樂", pos: "n." },
+      { word: "imagine", meaning: "想像", pos: "v." },
+      { word: "imagination", meaning: "想像力", pos: "n." },
+      { word: "consistent", meaning: "一致的", pos: "adj." },
+      { word: "convey", meaning: "傳達", pos: "v." },
+      { word: "request", meaning: "請求", pos: "n." },
+      { word: "extreme", meaning: "極端的", pos: "adj." },
+      { word: "achieve", meaning: "達成", pos: "v." },
+      { word: "passion", meaning: "熱情", pos: "n." },
+      { word: "hardship", meaning: "困難", pos: "n." },
+      { word: "poverty", meaning: "貧窮", pos: "n." },
+      { word: "rescue", meaning: "救援", pos: "v." },
+      { word: "career", meaning: "職業", pos: "n." },
+      { word: "deliver", meaning: "傳送", pos: "v." },
+      { word: "disadvantage", meaning: "劣勢", pos: "n." },
+      { word: "overcome", meaning: "克服", pos: "v." },
+      { word: "attitude", meaning: "態度", pos: "n." },
+      { word: "challenge", meaning: "挑戰", pos: "n." },
+      { word: "obstacle", meaning: "障礙", pos: "n." },
+      { word: "fulfill", meaning: "完成", pos: "v." },
+      { word: "awful", meaning: "糟糕的", pos: "adj." },
+      { word: "stare", meaning: "盯著看", pos: "v." },
+      { word: "whisper", meaning: "耳語", pos: "v." }
+  ]
+
+};

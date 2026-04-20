@@ -1,0 +1,145 @@
+
+:root {
+    --bg: #0b1220;
+    --card: rgba(30, 41, 59, 0.85);
+    --card-border: rgba(148, 163, 184, 0.15);
+    --text: #e2e8f0;
+    --muted: #94a3b8;
+    --primary: #3b82f6;
+    --primary-hover: #2563eb;
+    --danger: #ef4444;
+    --success: #22c55e;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: radial-gradient(circle at top, #111827, var(--bg));
+    color: var(--text);
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+/* 卡片 */
+.card {
+    width: 420px;
+    margin: 40px auto;
+    padding: 24px;
+    border-radius: 16px;
+
+    background: var(--card);
+    border: 1px solid var(--card-border);
+
+    box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+    backdrop-filter: blur(10px);
+
+    text-align: center;
+}
+
+/* 標題 */
+h2 {
+    margin-bottom: 16px;
+    font-size: 22px;
+    letter-spacing: 1px;
+}
+
+h3 {
+    margin: 14px 0;
+}
+
+/* input */
+input, select {
+    width: 90%;
+    padding: 10px 12px;
+    margin: 8px 0;
+
+    border-radius: 10px;
+    border: 1px solid var(--card-border);
+
+    background: rgba(15, 23, 42, 0.6);
+    color: var(--text);
+
+    outline: none;
+    transition: 0.2s;
+}
+
+input:focus, select:focus {
+    border-color: var(--primary);
+    box-shadow: 0 0 0 2px rgba(59,130,246,0.2);
+}
+
+/* 按鈕 */
+button {
+    width: 90%;
+    padding: 10px 12px;
+    margin: 6px 0;
+
+    border-radius: 10px;
+    border: none;
+
+    background: var(--primary);
+    color: white;
+
+    cursor: pointer;
+    font-weight: 500;
+
+    transition: 0.2s;
+}
+
+button:hover {
+    background: var(--primary-hover);
+    transform: translateY(-1px);
+}
+
+button:active {
+    transform: scale(0.98);
+}
+
+/* 危險按鈕 */
+button.danger {
+    background: var(--danger);
+}
+
+button.danger:hover {
+    background: #dc2626;
+}
+
+/* 成功提示 */
+.success {
+    color: var(--success);
+}
+
+/* 錯誤提示 */
+.error {
+    color: var(--danger);
+}
+
+/* 文字輔助 */
+#userInfo {
+    margin-bottom: 10px;
+    color: var(--muted);
+    font-size: 14px;
+}
+
+#result {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+/* 登入區 */
+#loginBox {
+    margin-top: 10px;
+}
+
+/* 圖表 */
+canvas {
+    margin-top: 20px;
+    max-width: 100%;
+}
+
+/* 下拉選單 */
+select {
+    cursor: pointer;
+}
