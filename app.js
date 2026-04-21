@@ -88,7 +88,7 @@ function nextWord(){
     answered = false;
 }
 
-// 後台入口（備用）
+// 後台入口（目前無用
 function goAdmin(){
 
     const name = localStorage.getItem("currentUser");
